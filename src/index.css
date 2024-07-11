@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Diphylleia", serif;
+  color-scheme: light;
+}
+
+body {
+  background-color: #171821;
+}
+
+.play-fair {
+  font-family: "Playfair Display", serif;
+}
+
+.diphylleia {
+  font-family: "Diphylleia", serif;
+}
+
+.lora {
+  font-family: "Lora", serif;
+}
+
+.pt-serif {
+  font-family: "PT Serif", serif;
+}
+
+.prata {
+  font-family: "Prata", serif;
+}
+
+/* Set background colour When input field auto filled */
+@media (min-width: 0px) {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover,
+  select:-webkit-autofill:focus {
+    -webkit-text-fill-color: white;
+    -webkit-box-shadow: 0 0 0px 1000px #21222d inset;
+    transition: background-color 5000s ease-in-out 0s;
+  };
+}
+
+/* *************************************************** */
