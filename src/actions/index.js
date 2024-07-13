@@ -11,3 +11,10 @@ export const decNum = (num) => {
         payload: num
     }
 }
+
+export const setIcon = (new_icon) => {
+    return {
+        type: 'change',
+        payload: new_icon
+    }
+}

@@ -39,6 +39,15 @@ body {
   font-family: "Prata", serif;
 }
 
+.icon-shadowed {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+.icon-shadowed-scanner {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Set background colour When input field auto filled */
 @media (min-width: 0px) {
   input:-webkit-autofill,
