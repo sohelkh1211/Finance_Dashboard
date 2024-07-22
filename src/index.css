@@ -19,6 +19,24 @@ body {
   background-color: #171821;
 }
 
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #21222d; 
+  border-radius: 10px;
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #F9769D; 
+  border-radius: 10px;
+}
+
+/* Width of the vertical scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+
 .play-fair {
   font-family: "Playfair Display", serif;
 }
@@ -46,6 +64,22 @@ body {
 
 .icon-shadowed-scanner {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle-gradient {
+  background: #21222d;
+  background: linear-gradient(60deg, #21222d 55%, rgba(249, 118, 157, 0.186) 100%);
+}
+
+.p-dropdown-panel {
+  background-color: #6a5c6c82 !important;
+  border-radius: 10px;
+  margin-top: 4px;
+  padding: 8px;
+}
+
+.p-dropdown-item {
+  color: black !important; /* Customize text color if needed */
 }
 
 /* Set background colour When input field auto filled */
