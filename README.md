@@ -47,11 +47,11 @@ To get a local copy up and running follow these simple steps:
 
 4. Start the development server:
     ```sh
-    npm start
+    npm run dev
     ```
 
 ## 🚀 Usage
-Once the server is running, you can access the application at `http://localhost:3000`.
+Once the server is running, you can access the application at `http://localhost:5173/`.
 
 ## 🛠️ Technologies Used
 - ⚛️ **ReactJS**: A JavaScript library for building user interfaces.
