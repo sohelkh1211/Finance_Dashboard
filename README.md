@@ -7,7 +7,7 @@ This is my first project where I showcase my skill in converting UI designs into
 - [📖 Project Overview](#-project-overview)
 - [✨ Features](#-features)
 - [🖼️ Demo](#-demo)
-- [⚙️ Installation](#installation)
+- [⚙️ Installation](#-installation)
 - [🚀 Usage](#-usage)
 - [🛠️ Technologies Used](#-technologies-used)
 <!-- vscode-markdown-toc-config
