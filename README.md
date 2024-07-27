@@ -6,7 +6,7 @@ This is my first project where I showcase my skill in converting UI designs into
 
 - [📖 Project Overview](#-project-overview)
 - [✨ Features](#-features)
-- [🖼️ Demo](#-demo)
+- [🖼️ Demo](#%EF%B8%8F-demo)
 - [⚙️ Installation](#-installation)
 - [🚀 Usage](#-usage)
 - [🛠️ Technologies Used](#-technologies-used)
