@@ -1,7 +1,7 @@
 # 📊 ReactJS UI Finance Dashboard
 
 This is my first project where I showcase my skill in converting UI designs into a live web application. 🚀 This project is a Finance Dashboard web application built using ReactJS. 💻 It transforms a finance dashboard design into a fully functional and responsive web application. 📊✨
-<!-- vscode-markdown-toc -->
+
 ## 📋 Table of Contents
 
 - [📖 Project Overview](#-project-overview)
@@ -10,11 +10,7 @@ This is my first project where I showcase my skill in converting UI designs into
 - [⚙️ Installation](#%EF%B8%8F-installation)
 - [🚀 Usage](#-usage)
 - [🛠️ Technologies Used](#%EF%B8%8F-technologies-used)
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+
 ## 📖 Project Overview
 This Finance Dashboard application displays key financial data including total income, total expenses, balance, and recent transactions. The UI design is sleek, modern, and user-friendly, featuring interactive charts and cards.
 
