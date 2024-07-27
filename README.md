@@ -9,9 +9,6 @@ This is my first project where I showcase my skill in converting UI designs into
 - [⚙️ Installation](#installation)
 - [🚀 Usage](#usage)
 - [🛠️ Technologies Used](#technologies-used)
-- [📁 Project Structure](#project-structure)
-- [🤝 Contributing](#contributing)
-- [📜 License](#license)
 - [🙏 Acknowledgements](#acknowledgements)
 
 ## 📖 Project Overview
@@ -23,7 +20,7 @@ This Finance Dashboard application displays key financial data including total i
 - 💳 **Cards Overview**: Shows balance and recent transactions.
 
 ## 🎥 Demo
-![Dashboard Screenshot](path/to/your/screenshot.png)
+![image](https://github.com/user-attachments/assets/b57351fb-789c-4393-9819-7adb34b96f8b)
 
 You can view a live demo of the application [here](link-to-your-live-demo).
 
