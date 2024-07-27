@@ -22,7 +22,7 @@ This Finance Dashboard application displays key financial data including total i
 ## 🖼️ Demo
 ![image](https://github.com/user-attachments/assets/b57351fb-789c-4393-9819-7adb34b96f8b)
 
-You can view a live demo of the application [here](link-to-your-live-demo).
+You can view a live demo of the application [here](https://ui-finance-dashboard1.netlify.app/).
 
 ## ⚙️ Installation
 To get a local copy up and running follow these simple steps:
