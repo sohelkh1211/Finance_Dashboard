@@ -5,11 +5,11 @@ This is my first project where I showcase my skill in converting UI designs into
 ## 📋 Table of Contents
 - [📖 Project Overview](#project-overview)
 - [✨ Features](#features)
-- [🎥 Demo](#demo)
+- [🖼️ Demo](#demo)
 - [⚙️ Installation](#installation)
 - [🚀 Usage](#usage)
 - [🛠️ Technologies Used](#technologies-used)
-- [🙏 Acknowledgements](#acknowledgements)
+
 
 ## 📖 Project Overview
 This Finance Dashboard application displays key financial data including total income, total expenses, balance, and recent transactions. The UI design is sleek, modern, and user-friendly, featuring interactive charts and cards.
@@ -19,7 +19,7 @@ This Finance Dashboard application displays key financial data including total i
 - 📊 **Interactive Charts**: Displays income and expense trends over time.
 - 💳 **Cards Overview**: Shows balance and recent transactions.
 
-## 🎥 Demo
+## 🖼️ Demo
 ![image](https://github.com/user-attachments/assets/b57351fb-789c-4393-9819-7adb34b96f8b)
 
 You can view a live demo of the application [here](link-to-your-live-demo).
@@ -52,5 +52,6 @@ Once the server is running, you can access the application at `http://localhost:
 
 ## 🛠️ Technologies Used
 - ⚛️ **ReactJS**: A JavaScript library for building user interfaces.
-- 📈 **Chart.js**: For creating responsive, interactive charts.
+- ⚡ **ViteJS**: Next Generation Frontend Tooling.
+- <img class=" ls-is-cached lazyloaded" src="https://apexcharts.com/wp-content/themes/apexcharts/img/apexcharts-logo-white-trimmed.svg" width="20px" height="20px" alt="ApexCharts"> **Apex chart**: For creating responsive, interactive charts.
 - 🎨 **CSS Modules**: For styling components.
