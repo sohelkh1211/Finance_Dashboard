@@ -4,12 +4,12 @@ This is my first project where I showcase my skill in converting UI designs into
 <!-- vscode-markdown-toc -->
 ## 📋 Table of Contents
 
-- [📖 Project Overview](#project-overview)
-- [✨ Features](#features)
-- [🖼️ Demo](#demo)
-- [⚙️ Installation](#installation)
-- [🚀 Usage](#usage)
-- [🛠️ Technologies Used](#technologies-used)
+- [📖 Project Overview](#-project-overview)
+- [✨ Features](#-features)
+- [🖼️ Demo](#-demo)
+- [⚙️ Installation](#-installation)
+- [🚀 Usage](#-usage)
+- [🛠️ Technologies Used](#-technologies-used)
 <!-- vscode-markdown-toc-config
 	numbering=true
 	autoSave=true
