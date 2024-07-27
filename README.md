@@ -15,8 +15,6 @@ This is my first project where I showcase my skill in converting UI designs into
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
-
-
 ## 📖 Project Overview
 This Finance Dashboard application displays key financial data including total income, total expenses, balance, and recent transactions. The UI design is sleek, modern, and user-friendly, featuring interactive charts and cards.
 
