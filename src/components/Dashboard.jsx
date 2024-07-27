@@ -27,6 +27,12 @@ import scanner1 from '../assets/scan.png';
 import scanner2 from '../assets/scan2.png';
 import user from '../assets/man.png';
 import master from '../assets/social-media.png';
+import dribble from "../assets/dribble-logo.png";
+import tinder from "../assets/tinder.png";
+import cart from "../assets/shopping-cart.png";
+import netflix from '../assets/netflix.png';
+import airbnb from '../assets/airbnb.png';
+import arrow from '../assets/down-arrow.png'
 // ******************* Redux imports *******************
 import { useSelector, useDispatch } from 'react-redux';
 import { setIcon } from '../actions';
@@ -41,6 +47,39 @@ const Dashboard = () => {
     const [open, setOpen] = useState(false); // Navbar menu for xs devices
     const [options, setOptions] = useState('Last Week');
 
+    const transactions = [{
+        id: "dribble",
+        logo: dribble,
+        title: "Dribbble",
+        time: "11:55 AM",
+        money: "$10.67"
+    }, {
+        id: "tinder",
+        logo: tinder,
+        title: "Tinder",
+        time: "10:15 AM",
+        money: "$12.01"
+    }, {
+        id: "ikea",
+        logo: cart,
+        title: "Ikea",
+        time: "9:32 AM",
+        money: "$112.43"
+    }];
+
+    const yesterday_transactions = [{
+        id: 'netflix',
+        logo: netflix,
+        title: 'Netflix',
+        time: '7:50 AM',
+        money: '$13.63'
+    }, {
+        id: 'airbnb',
+        logo: airbnb,
+        title: 'Airbnb',
+        time: '11:50 AM',
+        money: '$200.12'
+    }]
 
     const theme = createTheme({
         breakpoints: {
@@ -167,7 +206,7 @@ const Dashboard = () => {
                     <p className={`${selected_icon === "Chart" ? 'text-[#48515e] font-bold' : ''}`}>Analytics</p>
                 </div>
                 <div className={`flex items-center pl-4 py-2 gap-x-4 mt-6 ${selected_icon === "Scan" ? 'icon-shadowed-scanner' : ''} border-none border-black`} onClick={() => dispatch(setIcon("Scan"))}>
-                    <img src={`${selected_icon === "Scan" ? scanner1 : scanner}`} className='w-[18px] h-[18px]' />
+                    <img src={`${selected_icon === "Scan" ? scanner2 : scanner}`} className='w-[18px] h-[18px]' />
                     <p className={`${selected_icon === "Scan" ? 'text-[#48515e] font-bold' : ''}`}>Settings</p>
                 </div>
 
@@ -362,7 +401,10 @@ const Dashboard = () => {
 
                     {/* User profile, notification and mail section */}
                     <div className='flex pr-[4%] justify-between border-none'>
-                        <img src={user} className='rounded-3xl w-[2.4rem] border-[2px] border-cyan-600' />
+                        <div className='flex'>
+                            <img src={user} className='rounded-3xl w-[2.4rem] border-[2px] border-cyan-600 cursor-pointer' />
+                            <img src={arrow} />
+                        </div>
                         <div className='flex gap-x-4 items-center'>
                             <FontAwesomeIcon icon={faBell} className='w-[1rem] h-[1.1rem] text-[#6e7888] cursor-pointer' />
                             <div className="md:absolute xs:hidden flex top-[2.6rem] ml-[2.95rem] w-[0.5rem] h-[0.5rem] rounded-full bg-[#F9769D]"></div>
@@ -388,17 +430,17 @@ const Dashboard = () => {
                             {/* Card Number */}
                             <div className='flex mt-8 items-venter justify-between h-fit'>
                                 <div className='flex lg:gap-x-3 md:gap-x-2 xs:gap-x-3 items-center'>
-                                    <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" className='lg:w-[2.5rem] md:w-[1.7rem] xs:w-[2.5rem]' viewBox="0 0 972 972" xml:space="preserve">
+                                    <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className='lg:w-[2.5rem] md:w-[1.7rem] xs:w-[2.5rem]' viewBox="0 0 972 972" xmlSpace="preserve">
                                         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
                                         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
                                         <g id="SVGRepo_iconCarrier"> <g> <path d="M90,576h0.5c49.7,0,90-40.3,90-90s-40.3-90-90-90H90c-49.7,0-90,40.3-90,90S40.3,576,90,576z" /> <path d="M617.5,576h1.1c49.7,0,90-40.3,90-90s-40.3-90-90-90h-1.1c-49.7,0-90,40.3-90,90S567.8,576,617.5,576z" /> <path d="M354.5,576c49.7,0,90-40.3,90-90s-40.3-90-90-90h-1.1c-49.7,0-90,40.3-90,90s40.3,90,90,90H354.5z" /> <path d="M881.5,576h0.5c49.7,0,90-40.3,90-90s-40.3-90-90-90h-0.5c-49.7,0-90,40.3-90,90S831.8,576,881.5,576z" /> </g> </g>
                                     </svg>
-                                    <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" className='lg:w-[2.5rem] md:w-[1.7rem] xs:w-[2.5rem]' viewBox="0 0 972 972" xml:space="preserve">
+                                    <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className='lg:w-[2.5rem] md:w-[1.7rem] xs:w-[2.5rem]' viewBox="0 0 972 972" xmlSpace="preserve">
                                         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
                                         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
                                         <g id="SVGRepo_iconCarrier"> <g> <path d="M90,576h0.5c49.7,0,90-40.3,90-90s-40.3-90-90-90H90c-49.7,0-90,40.3-90,90S40.3,576,90,576z" /> <path d="M617.5,576h1.1c49.7,0,90-40.3,90-90s-40.3-90-90-90h-1.1c-49.7,0-90,40.3-90,90S567.8,576,617.5,576z" /> <path d="M354.5,576c49.7,0,90-40.3,90-90s-40.3-90-90-90h-1.1c-49.7,0-90,40.3-90,90s40.3,90,90,90H354.5z" /> <path d="M881.5,576h0.5c49.7,0,90-40.3,90-90s-40.3-90-90-90h-0.5c-49.7,0-90,40.3-90,90S831.8,576,881.5,576z" /> </g> </g>
                                     </svg>
-                                    <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" className='lg:w-[2.5rem] md:w-[1.7rem] xs:w-[2.5rem]' viewBox="0 0 972 972" xml:space="preserve">
+                                    <svg fill="#FFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className='lg:w-[2.5rem] md:w-[1.7rem] xs:w-[2.5rem]' viewBox="0 0 972 972" xmlSpace="preserve">
                                         <g id="SVGRepo_bgCarrier" strokeWidth="0" />
                                         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
                                         <g id="SVGRepo_iconCarrier"> <g> <path d="M90,576h0.5c49.7,0,90-40.3,90-90s-40.3-90-90-90H90c-49.7,0-90,40.3-90,90S40.3,576,90,576z" /> <path d="M617.5,576h1.1c49.7,0,90-40.3,90-90s-40.3-90-90-90h-1.1c-49.7,0-90,40.3-90,90S567.8,576,617.5,576z" /> <path d="M354.5,576c49.7,0,90-40.3,90-90s-40.3-90-90-90h-1.1c-49.7,0-90,40.3-90,90s40.3,90,90,90H354.5z" /> <path d="M881.5,576h0.5c49.7,0,90-40.3,90-90s-40.3-90-90-90h-0.5c-49.7,0-90,40.3-90,90S831.8,576,881.5,576z" /> </g> </g>
@@ -408,10 +450,53 @@ const Dashboard = () => {
                                 <img src={master} className='flex lg:w-[15%] md:w-[13%] xs:w-[15%]' />
                             </div>
                         </div>
+                    </div>
 
-                        {/*  */}
-                        <div>
-                            
+                    {/* Recent Transactions */}
+                    <div className="flex flex-col mt-10 ">
+
+                        {/* Title */}
+                        <div className='flex justify-between'>
+                            <h1 className='text-white text-[18px] lora'>Recent Transactions</h1>
+                            <MoreVertIcon className='text-white cursor-pointer' sx={{ width: '1.3rem' }} />
+                        </div>
+
+                        {/* Today Transactions */}
+                        <div className='flex flex-col mt-2'>
+                            <p className='text-[#6e7888] lora'>Today</p>
+                            {transactions.map((transaction) => (
+                                <div key={transaction.id} className='flex mt-4'>
+                                    <div className='flex bg-[#21222d] md:p-4 sm:p-5 xs:p-4 rounded-xl'>
+                                        <img src={transaction.logo} className='lg:w-[2.2rem] md:w-[2.2rem] sm:w-[2.4rem] xs:w-[2rem]' />
+                                    </div>
+                                    <div className='flex flex-col w-full lg:ml-[6%] md:ml-[6%] sm:ml-[3%] xs:ml-[4%] self-end'>
+                                        <h1 className='text-white lg:text-[16px] md:text-[14px] sm:text-[16px] xs:text-[14px] lora'>{transaction.title}</h1>
+                                        <p className='text-[#6e7888] lg:text-[16px] md:text-[14px] sm:text-[16px] xs:text-[14px] inter'>{transaction.time}</p>
+                                    </div>
+                                    <div className='flex self-center'>
+                                        <p className='text-white inter lg:text-[16px] md:text-[14px] sm:text-[16px] xs:text-[14px]'>{transaction.money}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Yesterday Transactions */}
+                        <div className='flex flex-col mt-4 md:mb-0 xs:mb-8'>
+                            <p className='text-[#6e7888] lora'>Yesterday</p>
+                            {yesterday_transactions.map((transaction) => (
+                                <div key={transaction.id} className='flex mt-4'>
+                                    <div className='flex bg-[#21222d] md:p-4 sm:p-5 xs:p-4 rounded-xl'>
+                                        <img src={transaction.logo} className='lg:w-[2.2rem] md:w-[2.2rem] sm:w-[2.4rem] xs:w-[2rem]' />
+                                    </div>
+                                    <div className='flex flex-col w-full lg:ml-[6%] md:ml-[6%] sm:ml-[3%] xs:ml-[4%] self-end'>
+                                        <h1 className='text-white lg:text-[16px] md:text-[14px] sm:text-[16px] xs:text-[14px] lora'>{transaction.title}</h1>
+                                        <p className='text-[#6e7888] lg:text-[16px] md:text-[14px] sm:text-[16px] xs:text-[14px] inter'>{transaction.time}</p>
+                                    </div>
+                                    <div className='flex self-center'>
+                                        <p className='text-white inter lg:text-[16px] md:text-[14px] sm:text-[16px] xs:text-[14px]'>{transaction.money}</p>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                     </div>
 
