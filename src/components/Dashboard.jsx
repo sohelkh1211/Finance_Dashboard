@@ -403,7 +403,7 @@ const Dashboard = () => {
                     <div className='flex pr-[4%] justify-between border-none'>
                         <div className='flex'>
                             <img src={user} className='rounded-3xl w-[2.4rem] border-[2px] border-cyan-600 cursor-pointer' />
-                            <img src={arrow} />
+                            <img src={arrow} className='cursor-pointer' />
                         </div>
                         <div className='flex gap-x-4 items-center'>
                             <FontAwesomeIcon icon={faBell} className='w-[1rem] h-[1.1rem] text-[#6e7888] cursor-pointer' />
