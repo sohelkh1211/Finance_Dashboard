@@ -54,4 +54,4 @@ Once the server is running, you can access the application at `http://localhost:
 - ⚛️ **ReactJS**: A JavaScript library for building user interfaces.
 - ⚡ **ViteJS**: Next Generation Frontend Tooling.
 - <img class=" ls-is-cached lazyloaded" src="https://apexcharts.com/wp-content/themes/apexcharts/img/apexcharts-logo-white-trimmed.svg" width="20px" height="20px" alt="ApexCharts"> **Apex chart**: For creating responsive, interactive charts.
-- 🎨 **CSS Modules**: For styling components.
+- 🎨 **CSS Modules**: For styling components
